@@ -1,0 +1,54 @@
+2018-05-31T00:55:42.124Z - normal: Load ~/.CocosCreator/settings.json
+2018-05-31T00:55:42.128Z - normal: checking language setting...
+2018-05-31T00:55:42.128Z - normal: Language: zh
+2018-05-31T00:55:47.304Z - success: protocol editor-framework registered
+2018-05-31T00:55:47.304Z - success: protocol app registered
+2018-05-31T00:55:47.304Z - success: protocol theme registered
+2018-05-31T00:55:47.304Z - success: protocol packages registered
+2018-05-31T00:55:47.304Z - success: protocol unpack registerred
+2018-05-31T00:55:47.304Z - success: protocol disable-commonjs registerred
+2018-05-31T00:55:47.579Z - normal: connected!
+2018-05-31T00:55:47.585Z - normal: Check project C:\Users\discuzben\Desktop\workspace\cocos2d-cattle\robvillagecattle
+2018-05-31T00:55:47.589Z - normal: Initializing Cocos2d
+2018-05-31T00:55:49.162Z - normal: Initializing Asset Database
+2018-05-31T00:55:49.374Z - success: protocol uuid registerred
+2018-05-31T00:55:49.374Z - success: protocol db registerred
+2018-05-31T00:55:49.375Z - success: protocol thumbnail registerred
+2018-05-31T00:55:49.375Z - normal: Loading editor/builtin packages
+2018-05-31T00:55:49.422Z - success: anysdk loaded
+2018-05-31T00:55:49.572Z - success: assets loaded
+2018-05-31T00:55:49.574Z - success: builder loaded
+2018-05-31T00:55:49.576Z - success: cocos-analytics loaded
+2018-05-31T00:55:49.579Z - success: console loaded
+2018-05-31T00:55:49.611Z - success: fb-instant-games loaded
+2018-05-31T00:55:49.614Z - success: hierarchy loaded
+2018-05-31T00:55:49.618Z - success: inspector loaded
+2018-05-31T00:55:49.619Z - success: keystore loaded
+2018-05-31T00:55:49.622Z - success: node-library loaded
+2018-05-31T00:55:49.624Z - success: package-asset loaded
+2018-05-31T00:55:49.626Z - success: preferences loaded
+2018-05-31T00:55:49.633Z - success: project-exporter loaded
+2018-05-31T00:55:49.647Z - success: project-importer loaded
+2018-05-31T00:55:49.648Z - success: project-settings loaded
+2018-05-31T00:55:49.650Z - success: ui-kit loaded
+2018-05-31T00:55:49.656Z - success: ui-grid loaded
+2018-05-31T00:55:49.661Z - success: scene loaded
+2018-05-31T00:55:49.661Z - success: sprite-editor loaded
+2018-05-31T00:55:49.664Z - success: store loaded
+2018-05-31T00:55:49.669Z - success: timeline loaded
+2018-05-31T00:55:49.669Z - normal: Loading builtin packages
+2018-05-31T00:55:49.681Z - success: asset-db-debugger loaded
+2018-05-31T00:55:49.682Z - success: code-editor loaded
+2018-05-31T00:55:49.691Z - success: color-picker loaded
+2018-05-31T00:55:49.694Z - success: package-manager loaded
+2018-05-31T00:55:49.702Z - success: sdkbox loaded
+2018-05-31T00:55:49.704Z - success: tester loaded
+2018-05-31T00:55:49.705Z - success: ui-kit-preview-extra loaded
+2018-05-31T00:55:49.708Z - success: ui-kit-preview loaded
+2018-05-31T00:55:49.709Z - success: ui-tree loaded
+2018-05-31T00:55:51.148Z - normal: Initializing project C:\Users\discuzben\Desktop\workspace\cocos2d-cattle\robvillagecattle
+2018-05-31T00:55:51.157Z - normal: Loading packages
+2018-05-31T00:55:51.162Z - normal: Watching packages
+2018-05-31T00:55:51.188Z - normal: Run Application
+2018-05-31T00:55:55.575Z - success: preview server running at http://localhost:7456
+2018-05-31T00:56:04.394Z - normal: 1.9.1

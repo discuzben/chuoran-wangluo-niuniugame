@@ -1,0 +1,15 @@
+{
+    "needUglify": false,
+    "src": ["config.js","lib_api/*.js"],
+    "order": [
+        "config.js",
+        "lib_api/GlobalData.js",
+        "lib_api/ConstantData.js",
+        "lib_api/LocalStoreUtil.js",
+        "lib_api/MyUtil.js",
+        "lib_api/CcUtil.js",
+        "lib_api/*.js"
+    ],
+    "target": "main_concat.js",
+    "targetPath": "lib_api/build/"
+}

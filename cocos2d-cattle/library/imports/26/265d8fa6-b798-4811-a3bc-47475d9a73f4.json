@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "PKPZY",
+    "texture": "d88e17ce-8b96-4597-98c7-0690f2e5c0e8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      560,
+      466
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      560,
+      468
+    ]
+  }
+}

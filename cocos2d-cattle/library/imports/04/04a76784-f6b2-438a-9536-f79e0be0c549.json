@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "PAIZUO-01",
+    "texture": "9b0c83e8-f84e-41e4-95e8-df35dd68b551",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1920,
+      1059
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1920,
+      1059
+    ]
+  }
+}

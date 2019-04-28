@@ -1,0 +1,233 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "TCZY.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "09": {
+      "__uuid__": "444c85b8-92bb-42c1-9b1b-e0302c3e9ddc"
+    },
+    "AN-BCXG": {
+      "__uuid__": "8988f46e-0142-4ba7-821b-8a806c4bfec1"
+    },
+    "AN-CC": {
+      "__uuid__": "35eb7d27-f0f1-41bd-8d2b-3ca4692c987f"
+    },
+    "AN-JXPP": {
+      "__uuid__": "9f02a833-ba50-4537-85e4-3fdd8319b32c"
+    },
+    "AN-fh": {
+      "__uuid__": "ab6fff1b-c3aa-476b-8eee-ff3bda09eea8"
+    },
+    "AN-jxyx-02": {
+      "__uuid__": "758885ed-cf9f-4b01-8d34-b0be55643665"
+    },
+    "AN-jxyx": {
+      "__uuid__": "e22627e3-5c1e-4952-a771-c99b0c6e48be"
+    },
+    "AN-qd": {
+      "__uuid__": "4257cb7f-d89a-4a3f-a12f-c226be473bee"
+    },
+    "AN-qx": {
+      "__uuid__": "ddda54e4-6dd1-40be-90e9-8502216993e9"
+    },
+    "AN-tj": {
+      "__uuid__": "e6f26418-4651-479b-909c-a0241913404c"
+    },
+    "AN-xz": {
+      "__uuid__": "a9590299-5d7f-42d4-869e-4b80ccd8a1a1"
+    },
+    "AN-yykg-01": {
+      "__uuid__": "ea9a3e9c-aba7-4e1a-8379-143a6fd4aa54"
+    },
+    "AN-yykg-02": {
+      "__uuid__": "53e3037c-e0b1-42d2-88c9-f3118e1f7442"
+    },
+    "CK-D-01": {
+      "__uuid__": "baf0309b-3c77-4c25-a1c6-539d78dc3357"
+    },
+    "CK-D-02": {
+      "__uuid__": "32c4037a-63fe-435f-9d48-40e63b0b3992"
+    },
+    "CK-D": {
+      "__uuid__": "6ecfdd5a-7bd9-4eaf-ad52-3e3026a46c24"
+    },
+    "CK-DI-01": {
+      "__uuid__": "46970c73-3393-48de-b415-b15dd049a72d"
+    },
+    "CK-DI-02": {
+      "__uuid__": "a606b434-9d8e-4140-b662-b1575a5149ce"
+    },
+    "CK-DI-03": {
+      "__uuid__": "b42d49f9-5c6f-4808-b4a0-777a0c774392"
+    },
+    "CK-DI-04": {
+      "__uuid__": "ae50e75b-9e64-42d4-a83f-13de4edf76a5"
+    },
+    "CK-DI-05": {
+      "__uuid__": "3c4f2b88-b1d3-42fe-98f6-8e6084e916b8"
+    },
+    "CK-DI-06": {
+      "__uuid__": "7aa9ac81-06bf-44fd-a837-97749717163f"
+    },
+    "CK-DI-07": {
+      "__uuid__": "e55d192f-e3a9-48d8-8bee-cad422fe335d"
+    },
+    "CK-DI-08": {
+      "__uuid__": "82ab59ba-20a0-4b4a-827b-614e4244de09"
+    },
+    "CK-HD-01": {
+      "__uuid__": "527f4600-7b3c-4519-8f3b-44da40e2cdb7"
+    },
+    "CK-HD-02": {
+      "__uuid__": "02efe5d7-b7b5-48ec-9262-61457ac2b2b8"
+    },
+    "CK-HD-03": {
+      "__uuid__": "cac70455-5313-42d6-8251-a9f920986ede"
+    },
+    "CK-HD-04": {
+      "__uuid__": "95571dde-3724-46f8-92b7-e8d9eddc265e"
+    },
+    "CK-HD-05": {
+      "__uuid__": "c1021ead-54ce-4154-bb60-e2117944dfc3"
+    },
+    "CK-WDTX-HDT-01": {
+      "__uuid__": "06dfa6bc-a8d1-4f4a-8f29-02e262485afd"
+    },
+    "CK-WDTX-HDT-02": {
+      "__uuid__": "20279d26-6aea-4a14-9333-34f42281b0c0"
+    },
+    "DRJE-HDT-01": {
+      "__uuid__": "0e1d1bcf-79d2-42f6-afb2-6003ed46fe88"
+    },
+    "DRJE-HDT-02": {
+      "__uuid__": "a6a26725-8b5c-466b-982c-6f4332024fe3"
+    },
+    "DRJE-HDT-03": {
+      "__uuid__": "d99b9808-f885-4bc8-bd61-d042446f81c8"
+    },
+    "DRJE-JB": {
+      "__uuid__": "b6d9fb85-796b-4723-9902-a47eb3bff8f7"
+    },
+    "DRJE-ZD-01": {
+      "__uuid__": "51bbd292-1c1c-48f9-b5e2-4314849222c1"
+    },
+    "DRJE-ZD-02": {
+      "__uuid__": "ed7d497d-a2d7-46ac-8afb-2c7f8043a81a"
+    },
+    "HEIDI": {
+      "__uuid__": "d12b0ee1-120d-4fc3-84b5-c3b6d216006a"
+    },
+    "K-bz": {
+      "__uuid__": "0f5b70f7-55ff-4a10-9393-d98a339d03f5"
+    },
+    "K-bz2-00": {
+      "__uuid__": "9899966c-1355-4bda-99d5-047c99ff7475"
+    },
+    "K-bz2-01": {
+      "__uuid__": "ed5da949-ce54-4c7a-a483-2a8513fce0ae"
+    },
+    "K-bz2-02": {
+      "__uuid__": "1a6742ed-b350-4ee3-aabb-0ae0dbc7a699"
+    },
+    "K-bz2-03.": {
+      "__uuid__": "1d91bfec-d024-4fbb-add9-5be2a54cc80a"
+    },
+    "K-bz2-04.": {
+      "__uuid__": "b0f1d1fd-1bf1-4a9b-ba49-36d43e1a95bf"
+    },
+    "K-tc-01": {
+      "__uuid__": "80ec4108-4899-462d-a1b3-f67f0024d230"
+    },
+    "TC-01": {
+      "__uuid__": "4fbb0add-aa86-47e9-9283-a6af385a79e4"
+    },
+    "TC-bz-01": {
+      "__uuid__": "868a87b6-901d-489d-90b9-46cd6d84e627"
+    },
+    "TC-bz-02": {
+      "__uuid__": "d2dc8782-8186-466d-bcbc-7d8b7414d6fd"
+    },
+    "TC-fk-01": {
+      "__uuid__": "fd5b2e98-41e2-4736-bd2a-173445743add"
+    },
+    "TC-fk-02": {
+      "__uuid__": "b9f4fb58-ab51-4925-9802-bc50246fc503"
+    },
+    "TC-jl-01": {
+      "__uuid__": "7d6f6a12-cde2-40da-97ec-08837f92cfd3"
+    },
+    "TC-jl-02": {
+      "__uuid__": "44115c45-215a-4c7d-a776-ee8791760b76"
+    },
+    "TC-px-01": {
+      "__uuid__": "3d5a98bf-1d44-43d1-9b25-046196e23baa"
+    },
+    "TC-px-02": {
+      "__uuid__": "c6622c83-0895-4ba9-b519-530375b5fe2b"
+    },
+    "TC-sz-01": {
+      "__uuid__": "8652a1dd-939f-4824-aa9b-729e686351ce"
+    },
+    "TC-sz-02": {
+      "__uuid__": "6bbb53cc-4f84-4363-ae02-e42d921a9851"
+    },
+    "TC-tc-01": {
+      "__uuid__": "08eb9bb6-6369-4d57-acce-40408af7c2ee"
+    },
+    "TC-tc-02": {
+      "__uuid__": "211b3214-460b-46d4-8f4b-608bc826aa94"
+    },
+    "TC-ts-01": {
+      "__uuid__": "5ee95cdb-212c-48c0-8029-72cd42d02b10"
+    },
+    "TC-ts-02": {
+      "__uuid__": "a9d14b38-f2ca-4489-bc8a-1a16831f895a"
+    },
+    "YY-01": {
+      "__uuid__": "e300055e-efc6-4593-ad02-62269599cb50"
+    },
+    "YY-02": {
+      "__uuid__": "eeb71ffe-2b11-4424-a22e-06ec063b8d3e"
+    },
+    "YY-03": {
+      "__uuid__": "08bc361b-df2e-47be-9731-c641eb3ba9e8"
+    },
+    "ZHI-bz": {
+      "__uuid__": "859d6f68-7fc8-427b-ac0e-7b75f067fec8"
+    },
+    "ZHI-drje": {
+      "__uuid__": "8d659c2d-638e-450a-a223-b127206cf13b"
+    },
+    "ZHI-l": {
+      "__uuid__": "1e67d280-b651-45b0-bf00-81f3a2afed45"
+    },
+    "ZHI-pjjl": {
+      "__uuid__": "13f392de-dd10-4ed1-8111-905a31b27866"
+    },
+    "ZHI-pxbs": {
+      "__uuid__": "30014721-2cdf-4308-afad-2b59e463484c"
+    },
+    "ZHI-sz": {
+      "__uuid__": "9a40e18b-ac43-4985-9729-80a622f3f8b3"
+    },
+    "ZHI-ts": {
+      "__uuid__": "45defa21-36fa-49bc-846d-e1805b6a3f7f"
+    },
+    "ZHI-wdtx": {
+      "__uuid__": "ce84840e-27b9-4c5c-9df2-a72ee754f3d1"
+    },
+    "ZHI-x": {
+      "__uuid__": "ce5d9a4c-c0a8-4956-a4b3-c0ae5b04ab2a"
+    },
+    "ZHI-yjfk": {
+      "__uuid__": "1318e209-506a-4a29-bc3d-18e09daf7bcb"
+    },
+    "anniu-XL": {
+      "__uuid__": "bbde086d-f6f5-4c8f-b60b-160100ae6281"
+    },
+    "anniu-fanhui": {
+      "__uuid__": "e4aef505-5a30-46d3-ba2f-648dfb289327"
+    }
+  }
+}

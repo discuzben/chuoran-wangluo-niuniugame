@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "ad481636-5144-4588-9227-dabef70671db",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "cattle_room_item": {
+      "ver": "1.0.3",
+      "uuid": "2cca930f-829c-4a3d-a420-f9d05c7f1435",
+      "rawTextureUuid": "ad481636-5144-4588-9227-dabef70671db",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 2,
+      "trimY": 3,
+      "width": 360,
+      "height": 645,
+      "rawWidth": 364,
+      "rawHeight": 650,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

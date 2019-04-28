@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "DT-FJ-GJ",
+    "texture": "326406dd-ad04-4137-814a-08579e9fb070",
+    "atlas": "b82ee886-9113-4ac6-9e8c-94c2f030f121",
+    "rect": [
+      1,
+      592,
+      503,
+      398
+    ],
+    "offset": [
+      40,
+      -5
+    ],
+    "originalSize": [
+      583,
+      592
+    ]
+  }
+}

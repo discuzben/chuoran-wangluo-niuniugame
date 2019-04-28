@@ -1,0 +1,6 @@
+
+redis: 36379 zrnet!@#2018
+
+socket服务挂了：
+	失败循环：reconnect_attempt->reconnecting->reconnect_error
+	重连成功：reconnect_attempt->reconnecting->reconnect->connect

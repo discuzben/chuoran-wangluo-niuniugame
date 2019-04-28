@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>socket.io</title>
+</head>
+<body>
+<h1>socket.io - 测试 - <%= id %></h1>
+
+<div>
+    <div id="info">
+        <span id="msg">正在为您匹配牌桌......</span><br/>
+        房间编号：<span id="roomInfo"></span><br/>
+        玩家：
+        <div id="playerInfo"></div>
+        <br/>
+    </div>
+
+    <div id="step1" style="display: none">
+        抢庄：
+        <select id="chooseBankerOdds">
+            <option value="0">不抢</option>
+            <option value="1">1倍</option>
+            <option value="2">2倍</option>
+            <option value="3">3倍</option>
+        </select>
+        <button onclick="commitBankerOdds()">提交</button>
+    </div>
+    <div id="step2" style="display: none">
+        闲家选择倍数：
+        <select id="choosePlayerOdds">
+            <option value="1">1倍</option>
+            <option value="2">2倍</option>
+            <option value="3">3倍</option>
+            <option value="4">4倍</option>
+        </select>
+    </div>
+    <div id="step3" style="display: none">
+        开牌：
+    </div>
+</div>
+
+<script src="http://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/static/SocketIoPlugin.js"></script>
+
+<script>
+    window.configData = {
+        isDebug: true,
+        apiServerUrl: 'http://api.qisq.top',
+        socketServer: {url: 'http://localhost:3003'}
+    }
+    window.CD = window.ConstantData = {
+        gameTypes: {
+            '1': {name: '炸金花', gameId: 30, gameSceneName: 'game_zhajinhua', roomListScene: 'roomlist_zhajinhua'},
+            '2': {name: '百人牛牛', gameId: 50, gameSceneName: 'game_bairenniuniu', roomListScene: ''},
+            '3': {name: '德州扑克', gameId: 70, gameSceneName: 'game_xxxx', roomListScene: ''}
+        }
+    };
+    window.GD = {current: {}};
+
+    GD.gameRoomType = 2; //2：牛牛
+
+    GD.current.hallItem = {
+        gameId: 50,
+        hallId: 4,
+        name: '四倍场',
+        less: 50,
+        bottom: 0.1,
+        banker: 3000,
+        round: 1,
+        taxs: 0.01,
+        timeout: 15,
+        hall: {}
+    };
+
+    GD.token = 'c3423b8fec14453bad464f5eb294d1c4';
+
+    window.cc = window.console;
+
+    //初始socket,并加入游戏房间
+    function initIO() {
+        let self = this;
+        //实例化全局socket.io
+        let roomParams = {};
+        let socketCb = (connectStatus, roomData, isJoinRoomOk) => {
+            console.log('连接结果 - ', connectStatus, isJoinRoomOk, roomData);
+
+        };
+        window.initSocketIo(roomParams, socketCb);
+
+        ZR_IO.emit('player_info', {}, (info) => {
+            console.info(info);
+
+            GD.player = info.playerInfo;
+            GD.playerId = info.playerInfo.playerId;
+
+            matchingRoom();
+        });
+    }
+
+    initIO();
+
+    //匹配房间
+    function matchingRoom() {
+        ZR_IO.emit('matching_room', {});
+    }
+
+    //进来就匹配房间处理
+
+    //################事件处理区#########################
+    var playerIds = [];
+
+    ZR_IO.on('game_ready', (data, status) => { //房间匹配成功的事件
+        if (status) {
+            if (data.playerIds && data.playerIds.indexOf(GD.playerId) != -1) {
+                playerIds = data.playerIds;
+                ZR_IO.emit('entering_room', {roomKey: data.roomKey});
+            }
+        }
+    });
+
+    ZR_IO.on('banker_roll', (data, status) => { //游戏开始，抢庄
+        if (status) {
+            console.log("游戏开始");
+            console.log(data);
+            GD.gameRoomKey = data.roomKey;
+            $("#msg").text("游戏开始");
+            $("#roomInfo").text(data.roomInfo.code);
+            $("#playerInfo").text(data.playersInfo[playerIds[0]].username + "," + data.playersInfo[playerIds[1]].username);
+            $("#step1").show();
+        }
+    });
+
+    ZR_IO.on('player_roll', (data, status) => { //闲家定倍
+        if (status) {
+            console.log("闲家选择倍数");
+            console.log(data);
+            $("#msg").text("闲家选择倍数");
+            var text = $("#playerInfo").text();
+            $("#playerInfo").text(text + ",庄家Id=" + data.banker.playerId + ",庄家倍数=" + data.banker.odds);
+            $("#step1").hide();
+            $("#step2").show();
+        }
+    });
+
+    ZR_IO.on('deal', function (data, status) {
+        if (status) {
+            console.log("发牌");
+            console.log(data);
+            $("#step2").hide();
+            $("#step3").show();
+        }
+    });
+
+    function commitBankerOdds() {
+        var value = $("#chooseBankerOdds").val();
+        ZR_IO.emit('banker_choose', {playerId: GD.playerId, odds: value});
+    }
+
+</script>
+</body>
+</html>

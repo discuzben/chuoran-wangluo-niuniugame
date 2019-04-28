@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pai-dagui",
+    "texture": "d88e17ce-8b96-4597-98c7-0690f2e5c0e8",
+    "atlas": "4e8577e0-9275-4958-a167-0721f1e11aa6",
+    "rect": [
+      140,
+      192,
+      137,
+      189
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      137,
+      189
+    ]
+  }
+}

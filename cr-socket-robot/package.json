@@ -1,0 +1,24 @@
+{
+  "name": "cr-socket-robot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://39.108.75.74/morethan-front/cr-socket-robot.git"
+  },
+  "author": "qishanquan",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.16.3",
+    "later": "^1.2.0",
+    "log4js": "^2.6.1",
+    "querystring": "^0.2.0",
+    "redis": "^2.8.0",
+    "socket.io-client": "^2.1.1"
+  }
+}

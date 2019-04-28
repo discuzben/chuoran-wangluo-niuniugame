@@ -1,0 +1,50 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "QZNN-DT-ZY.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "DT-01": {
+      "__uuid__": "4494fc08-5fd1-439e-adfe-c3603d73107e"
+    },
+    "DT-FJ-CJ": {
+      "__uuid__": "27917676-825d-4ef4-82f8-a65228244800"
+    },
+    "DT-FJ-GJ": {
+      "__uuid__": "79f68d15-a796-407c-a8a2-e80efe6c6c40"
+    },
+    "DT-FJ-JT-01-a": {
+      "__uuid__": "771386bc-f440-4c9d-a563-642e9b05a93a"
+    },
+    "DT-FJ-JT-01": {
+      "__uuid__": "622e268c-08b3-4b94-91c9-7b1fdb35f3c2"
+    },
+    "DT-FJ-JT-02-a": {
+      "__uuid__": "a66cb91d-c157-4fa2-8142-cfafbf627d6a"
+    },
+    "DT-FJ-JT-02": {
+      "__uuid__": "fce9e8bf-0188-4942-a30f-470eb6166511"
+    },
+    "DT-FJ-JT-03-a": {
+      "__uuid__": "8934ef92-432d-448c-9964-fbaeee4d70d2"
+    },
+    "DT-FJ-JT-03": {
+      "__uuid__": "5f2e2a5a-3347-4a99-bf7c-50fd172eaa27"
+    },
+    "DT-FJ-XS": {
+      "__uuid__": "b6876cd5-7861-4a3e-a430-fce8dd525cb6"
+    },
+    "DT-FJ-XZ": {
+      "__uuid__": "63022427-c009-4e41-80ea-b0983b628c41"
+    },
+    "DT-FJ-ZJ": {
+      "__uuid__": "68ffa2ed-2333-4e2e-87b9-aa8a0c62b91f"
+    },
+    "DT-FJ-ZZ": {
+      "__uuid__": "07b60a0e-645d-413b-9f77-ef4468206455"
+    },
+    "ZHI-DT": {
+      "__uuid__": "91b52a9b-dc31-4c2e-b642-85c89bcc689a"
+    }
+  }
+}

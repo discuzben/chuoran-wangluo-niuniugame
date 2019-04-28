@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "AN-fh",
+    "texture": "cbd39c93-5651-4e4a-92a8-10ef32faed42",
+    "atlas": "9f6fd0fd-9f71-4637-bfd6-688ef4093f16",
+    "rect": [
+      1706,
+      723,
+      253,
+      81
+    ],
+    "offset": [
+      -25,
+      13
+    ],
+    "originalSize": [
+      463,
+      169
+    ],
+    "rotated": 1
+  }
+}

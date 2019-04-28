@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Q-ZHI-q",
+    "texture": "96b42f80-c66a-41ac-951f-095e5a0dffdf",
+    "atlas": "250a26a9-cb75-428d-aee2-4fc302be71d6",
+    "rect": [
+      1438,
+      873,
+      54,
+      53
+    ],
+    "offset": [
+      -7,
+      0
+    ],
+    "originalSize": [
+      138,
+      53
+    ]
+  }
+}

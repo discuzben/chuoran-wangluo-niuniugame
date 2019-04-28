@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "QZNN-ZY",
+    "texture": "96b42f80-c66a-41ac-951f-095e5a0dffdf",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      2022,
+      1223
+    ],
+    "offset": [
+      -1,
+      1
+    ],
+    "originalSize": [
+      2024,
+      1225
+    ]
+  }
+}

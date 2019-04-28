@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TC-jl-01",
+    "texture": "cbd39c93-5651-4e4a-92a8-10ef32faed42",
+    "atlas": "9f6fd0fd-9f71-4637-bfd6-688ef4093f16",
+    "rect": [
+      1976,
+      616,
+      125,
+      54
+    ],
+    "offset": [
+      -34,
+      13
+    ],
+    "originalSize": [
+      357,
+      178
+    ],
+    "rotated": 1
+  }
+}

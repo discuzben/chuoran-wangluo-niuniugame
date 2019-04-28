@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "WJTX-01",
+    "texture": "96b42f80-c66a-41ac-951f-095e5a0dffdf",
+    "atlas": "250a26a9-cb75-428d-aee2-4fc302be71d6",
+    "rect": [
+      1604,
+      1,
+      492,
+      147
+    ],
+    "offset": [
+      0,
+      16
+    ],
+    "originalSize": [
+      998,
+      455
+    ],
+    "rotated": 1
+  }
+}

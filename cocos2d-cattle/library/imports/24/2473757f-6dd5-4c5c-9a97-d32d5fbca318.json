@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "DT-HG-02",
+    "texture": "6b5dd17f-59b2-4d84-abfc-f7367c5290b8",
+    "atlas": "",
+    "rect": [
+      151,
+      187,
+      799,
+      837
+    ],
+    "offset": [
+      4,
+      -25.5
+    ],
+    "originalSize": [
+      1093,
+      1160
+    ]
+  }
+}

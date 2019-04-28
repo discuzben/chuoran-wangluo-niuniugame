@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ZHI-pjjl",
+    "texture": "cbd39c93-5651-4e4a-92a8-10ef32faed42",
+    "atlas": "9f6fd0fd-9f71-4637-bfd6-688ef4093f16",
+    "rect": [
+      1627,
+      723,
+      243,
+      77
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      243,
+      87
+    ],
+    "rotated": 1
+  }
+}

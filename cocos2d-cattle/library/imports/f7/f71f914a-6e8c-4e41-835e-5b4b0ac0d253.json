@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "X-ZHI-5",
+    "texture": "96b42f80-c66a-41ac-951f-095e5a0dffdf",
+    "atlas": "250a26a9-cb75-428d-aee2-4fc302be71d6",
+    "rect": [
+      1972,
+      701,
+      37,
+      37
+    ],
+    "offset": [
+      -9,
+      0
+    ],
+    "originalSize": [
+      133,
+      47
+    ]
+  }
+}

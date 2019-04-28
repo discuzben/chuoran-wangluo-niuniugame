@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "AN-tj",
+    "texture": "cbd39c93-5651-4e4a-92a8-10ef32faed42",
+    "atlas": "9f6fd0fd-9f71-4637-bfd6-688ef4093f16",
+    "rect": [
+      1265,
+      1219,
+      253,
+      81
+    ],
+    "offset": [
+      -12,
+      0
+    ],
+    "originalSize": [
+      411,
+      259
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "YXKS",
+    "texture": "2c083ba9-a6a2-4e11-a770-19e6caa7ce83",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1167,
+      979
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1167,
+      979
+    ]
+  }
+}

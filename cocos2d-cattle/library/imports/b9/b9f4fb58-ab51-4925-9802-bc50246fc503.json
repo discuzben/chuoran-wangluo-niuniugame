@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "TC-fk-02",
+    "texture": "cbd39c93-5651-4e4a-92a8-10ef32faed42",
+    "atlas": "9f6fd0fd-9f71-4637-bfd6-688ef4093f16",
+    "rect": [
+      1548,
+      1003,
+      160,
+      79
+    ],
+    "offset": [
+      -37,
+      9
+    ],
+    "originalSize": [
+      392,
+      213
+    ]
+  }
+}
